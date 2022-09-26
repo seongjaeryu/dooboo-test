@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="dooboo-art" data-name="dooboo art" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 350 500">
+<!-- indentation later -->
+<!-- memo MAX Positioning z2 from 150.51,123.31 to 212.05,61.77 -->
+<!-- x +61.54 y + -->
+
+<defs>
+  <style>
+    <![CDATA[
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=block");
+      .backgroundStyle {fill: #03243b;}
+      .z1Side {fill: url(#z1SideGradient);}
+      .z1Color {fill: #00ffcf; opacity: .7;}
+      .z1Base {fill: #e8e8e8; opacity: .65;}
+      .z1Shadow {fill: url(#z1ShadowGradient); opacity: .5;}
+      .z2Side {fill: url(#z2SideGradient);}
+      .z2Color {fill: #0062ff; opacity: .5;}
+      .z2Base {fill: #d3d3d3; opacity: .7;}
+      .z2InsideShadow {fill: url(#z2InsideShadowGradient);}
+      .z2Shadow {fill: url(#z2ShadowGradient);}
+      .z2ShadowClip {clip-path: url(#z2ShadowClipPath);}
+      .z3SideLeft {fill: url(#z3SideLeftGradient);}
+      .z3SideRight {fill: url(#z3SideRightGradient);}
+      .z3Base {fill: #d3d3d3; opacity: .7;}
+      .z3Color {fill: #ef00fc; opacity: .45;}
+      .z3Shadow {fill: url(#z3ShadowGradient);}
+      .fadeOut {animation: fadeOutKey 3s ease-in-out infinite;}
+        @keyframes fadeOutKey {
+          0% {
+            transform: opacity(1);
+            transform-origin: 55% 55%;
+          }
+          50% {
+            transform: opacity(0);
+            transform-origin: 55% 55%;
+          }
+          100% {
+            transform: opacity(1);
+            transform-origin: 55% 55%;
+          }
+        }
+    ]]>
+  </style>
+  <linearGradient id="z1SideGradient" x1="87.32" y1="6.87" x2="61.34" y2="110.79" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#231f20" stop-opacity=".2"/>
+    <stop offset=".14" stop-color="#141213" stop-opacity=".34"/>
+    <stop offset=".6" stop-color="#000" stop-opacity=".55"/>
+    <stop offset=".94" stop-color="#000" stop-opacity=".39"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".3"/>
+  </linearGradient>
+  <linearGradient id="z1ShadowGradient" x1="4.18" y1="35.73" x2="100.35" y2="71.47" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity=".5"/>
+    <stop offset="1" stop-color="#231f20" stop-opacity=".1"/>
+  </linearGradient>
+  <linearGradient id="z2SideGradient" x1="31.4" y1="-8.33" x2="102.84" y2="142.78" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#231f20" stop-opacity=".05"/>
+    <stop offset=".6" stop-color="#000" stop-opacity=".4"/>
+    <stop offset=".94" stop-color="#000" stop-opacity=".24"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".15"/>
+  </linearGradient>
+  <linearGradient id="z2InsideShadowGradient" x1="49.87" y1=".38" x2="49.87" y2="154.97" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/>
+    <stop offset=".38" stop-color="#151213" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#231f20" stop-opacity=".5"/>
+  </linearGradient>
+  <linearGradient id="z2ShadowGradient" x1="70.44" y1="17.72" x2="170.36" y2="19.34" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity=".5"/>
+    <stop offset="1" stop-color="#231f20" stop-opacity=".1"/>
+    <stop offset="1" stop-color="#231f20" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#231f20" stop-opacity=".3"/>
+  </linearGradient>
+  <linearGradient id="z3SideLeftGradient" x1="0" y1="103.99" x2="145.59" y2="103.99" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#231f20" stop-opacity=".15"/>
+    <stop offset=".75" stop-color="#070606" stop-opacity=".47"/>
+    <stop offset=".85" stop-color="#000" stop-opacity=".55"/>
+    <stop offset=".98" stop-color="#000" stop-opacity=".36"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".25"/>
+  </linearGradient>
+  <linearGradient id="z3SideRightGradient" x1="129" y1="56.16" x2="171.25" y2="56.16" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#231f20" stop-opacity=".2"/>
+    <stop offset=".55" stop-color="#000" stop-opacity=".55"/>
+    <stop offset=".94" stop-color="#000" stop-opacity=".36"/>
+    <stop offset="1" stop-color="#000" stop-opacity=".25"/>
+  </linearGradient>
+  <linearGradient id="z3ShadowGradient" x1="0" y1="62.34" x2="179.61" y2="62.34" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#000" stop-opacity=".3"/>
+    <stop offset=".86" stop-color="#161314" stop-opacity=".11"/>
+    <stop offset="1" stop-color="#231f20" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<!-- Background Group -->
+<!-- <g id="backgound">
+  <rect class="backgroundStyle" width="350" height="500"/>
+</g> -->
+<g id="z3Group">
+  <def>
+    <style>
+      .p3 {animation: p3Key 3s ease-in-out infinite;}
+      @keyframes p3Key {
+        0% {
+          transform: translate(0px, 0px);
+        }
+        50% {
+          transform: translate(15px, 15px);
+        100% {
+          transform: translate(0px, 0px);
+        }
+      }
+    </style>
+  </def>
+  <clipPath id="z2ShadowClipPath" class="p3">
+    <path class="z2Clipper" d="M73.12,108.55C37.02,96.08,0,83.3,0,83.3L91.27,0s32.6,9.72,55.03,16.66,25.65,17.17,24.83,24.58c-2.3,20.92-37.37,23.44-42.76,21.6-.51-.57,20.39,7.67,16.79,25.24-3.82,18.67-29.9,35.03-72.04,20.47Z"/>
+  </clipPath>
+  <g id="z3-1SVG" class="p3">
+    <svg x="80.97" y="249.86" width="179.61" height="124.67" viewBox="0 0 179.61 124.67">
+      <g id="z3-1">
+        <path class="z3Shadow" d="M179.61,39.24c0-7.17-4.48-16.24-24.94-22.58C132.24,9.72,99.64,0,99.64,0L8.37,83.3,0,90.94s45.39,15.68,81.49,28.15c42.14,14.56,68.22-1.8,72.04-20.47,.3-1.47,.43-2.88,.42-4.22-.02-1.76,.04-9.53-.01-11.01-.15-4.01-1.59-7.42-3.59-10.24,12.08-1.86,27.64-7.67,29.15-21.37,.07-.6,.11-1.23,.11-1.87,0-1.66,0-9.98,0-10.66Z"/>
+      </g>
+    </svg>
+  </g>
+  <g id="z3SVG" class="p3">
+    <svg x="80.97" y="247.05" width="171.25" height="124.67" viewBox="0 0 171.25 124.67">
+      <g id="z3">
+        <path class="z3Base" d="M171.24,39.24c0-7.17-4.48-16.24-24.94-22.58C123.87,9.72,91.27,0,91.27,0L0,83.3v10.53s37.02,12.79,73.12,25.25c42.14,14.56,68.22-1.8,72.04-20.47,.3-1.47,.43-2.88,.42-4.22-.02-1.76,.04-9.53-.01-11.01-.15-4.01-1.59-7.42-3.59-10.24,12.08-1.86,27.64-7.67,29.15-21.37,.07-.6,.11-1.23,.11-1.87,0-1.66,0-9.98,0-10.66Z"/>
+        <path class="z3SideLeft" d="M73.12,108.55C37.02,96.08,0,83.3,0,83.3v10.53s37.02,12.79,73.12,25.25c42.14,14.56,68.22-1.8,72.04-20.47,.3-1.47,.43-2.88,.42-4.22-.02-1.76,.04-9.53-.01-11.01,.06,1.48-.07,3.05-.4,4.7-3.82,18.67-29.9,35.03-72.04,20.47Z"/>
+        <path class="z3SideRight" d="M171.24,39.24s0-.05,0-.08c0,.71-.04,1.41-.11,2.08-2.23,20.23-35.09,23.25-42.13,21.76,2.07,.8,8.77,4.16,12.99,10.16,0,0-.01-.02-.02-.02,12.08-1.86,27.64-7.67,29.15-21.37,.07-.6,.11-1.23,.11-1.87,0-1.66,0-9.98,0-10.66Z"/>
+        <path class="z3Color" d="M171.24,39.24c0-7.17-4.48-16.24-24.94-22.58C123.87,9.72,91.27,0,91.27,0L0,83.3v10.53s37.02,12.79,73.12,25.25c42.14,14.56,68.22-1.8,72.04-20.47,.3-1.47,.43-2.88,.42-4.22-.02-1.76,.04-9.53-.01-11.01-.15-4.01-1.59-7.42-3.59-10.24,12.08-1.86,27.64-7.67,29.15-21.37,.07-.6,.11-1.23,.11-1.87,0-1.66,0-9.98,0-10.66Z"/>
+      </g>
+    </svg>
+  </g>
+</g>
+<g id="z2-2SVG">
+  <svg x="80.97" y="247.05" width="171.24" height="114.15" viewBox="0 0 171.24 114.15">
+    <g id="z2-2">
+      <g class="z2ShadowClip">
+        <g id="z2ShadowGroup" class="p2">
+          <path class="z2Shadow" d="M116.93,35.45c-34.09-7.74-47.39-11.43-47.39-11.43L96.92-1.11s15.84,3.49,47.77,11.07c27.09,6.44,26.45,13.69,23.85,17.8-5.71,9.03-25.87,13.53-51.61,7.69Z"/>
+        </g>
+      </g>
+    </g>
+  </svg>
+</g>
+<g id="z2Group">
+  <def>
+    <style>
+      .p2 {animation: p2Key 3s ease-in-out infinite;}
+      @keyframes p2Key {
+        0% {
+          transform: translate(0px, 0px);
+        }
+        50% {
+          transform: translate(12px, -12px);
+        100% {
+          transform: translate(0px, 0px);
+        }
+      }
+    </style>
+  </def>
+  <g id="z2-1SVG" class="p2">
+    <svg x="158.96" y="123.31" width="99.75" height="154.3" viewBox="0 0 99.75 154.3">
+      <g id="z2-1">
+        <path class="z2InsideShadow" d="M42.36,152.91L0,142.35V0S14.02,2.84,42.36,8.57s57.39,46.25,57.39,87.17-27.01,64.75-57.39,57.17Z"/>
+      </g>
+    </svg>
+  </g>
+  <g id="z2SVG" class="p2">
+    <svg x="150.51" y="123.31" width="108.19" height="159.41" viewBox="0 0 108.19 159.41">
+    <g id="z2">
+      <path class="z2Base" d="M108.19,95.73c0-40.92-29.05-81.44-57.39-87.17C22.46,2.84,8.45,0,8.45,0L0,5.11V147.46s11.98,2.99,42.36,10.56c11.66,2.91,22.82,1.18,32.15-4.37,1.52-.9,7.38-4.46,8.81-5.33,14.78-8.97,24.87-27.58,24.87-52.58Z"/>
+      <path class="z2Side" d="M50.81,8.57C22.46,2.84,8.45,0,8.45,0L0,5.11s14.02,2.84,42.36,8.57c28.34,5.72,57.39,46.25,57.39,87.17,0,25.22-10.27,43.94-25.26,52.82,0,0,.02,0,.02-.01,1.52-.9,7.38-4.46,8.81-5.33,14.78-8.97,24.87-27.58,24.87-52.58,0-40.92-29.05-81.44-57.39-87.17Z"/>
+      <path class="z2Color" d="M108.19,95.73c0-40.92-29.05-81.44-57.39-87.17C22.46,2.84,8.45,0,8.45,0L0,5.11V147.46s11.98,2.99,42.36,10.56c11.66,2.91,22.82,1.18,32.15-4.37,1.52-.9,7.38-4.46,8.81-5.33,14.78-8.97,24.87-27.58,24.87-52.58Z"/>
+    </g>
+    </svg>
+  </g>
+</g>
+<g id="z1Group">
+  <g id="z1-1SVG">
+    <def>
+      <style>
+        .p1-1 {animation: p1-1Key 3s ease-in-out infinite;}
+        @keyframes p1-1Key {
+          0% {
+            transform: scale(1);
+            transform-origin: 55% 55%;
+          }
+          50% {
+            transform: scale(0.5);
+            transform-origin: 55% 55%;
+          }
+          100% {
+            transform: scale(1);
+            transform-origin: 55% 55%;
+          }
+        }
+      </style>
+    </def>
+    <g class="p1-1">
+      <svg x="112.13" y="206.71" width="103.09" height="106.66" viewBox="0 0 103.09 106.66">
+        <g id="z1-1">
+          <path class="z1Shadow" d="M60.2,1.17C57.06,.42,53.78,.01,50.4,0,24.19-.11,1.66,23.24,.09,52.15c-1.28,23.44,11.62,43.34,30.52,50.08,2.58,.92,12.02,3.25,14.08,3.65,2.58,.5,5.25,.77,7.99,.78,26.22,.11,48.74-23.24,50.32-52.15,1.36-25.03-13.44-46.02-34.45-51.27-.83-.21-7.39-1.83-8.35-2.07Z"/>
+        </g>
+      </svg>
+    </g>
+  </g>
+  <g id="z1SVG">
+    <def>
+      <style>
+        .p1 {animation: p1Key 3s ease-in-out infinite;}
+        @keyframes p1Key {
+          0% {
+            transform: translate(0px, 0px);
+          }
+          50% {
+            transform: translate(-15px, -15px);
+          100% {
+            transform: translate(0px, 0px);
+          }
+        }
+      </style>
+    </def>
+    <g class="p1">
+      <svg style="p1" x="97.30" y="200.44" width="103.09" height="106.66" viewBox="0 0 103.09 106.66">
+        <g id="z1">
+          <path class="z1Base" d="M60.2,1.17C57.06,.42,53.78,.01,50.4,0,24.19-.11,1.66,23.24,.09,52.15c-1.28,23.44,11.62,43.34,30.52,50.08,2.58,.92,12.02,3.25,14.08,3.65,2.58,.5,5.25,.77,7.99,.78,26.22,.11,48.74-23.24,50.32-52.15,1.36-25.03-13.44-46.02-34.45-51.27-.83-.21-7.39-1.83-8.35-2.07Z"/>
+          <path class="z1Side" d="M68.55,3.24c-.83-.21-7.39-1.83-8.35-2.07-.04-.01-.09-.02-.13-.03,21.28,5.04,36.32,26.17,34.95,51.41-1.57,28.91-24.1,52.26-50.32,52.15-3.08-.01-6.07-.36-8.96-.99,3.56,.93,7.67,1.92,8.95,2.17,2.58,.5,5.25,.77,7.99,.78,26.22,.11,48.74-23.24,50.32-52.15,1.36-25.03-13.44-46.02-34.45-51.27Z"/>
+          <path class="z1Color" d="M60.2,1.17C57.06,.42,53.78,.01,50.4,0,24.19-.11,1.66,23.24,.09,52.15c-1.28,23.44,11.62,43.34,30.52,50.08,2.58,.92,12.02,3.25,14.08,3.65,2.58,.5,5.25,.77,7.99,.78,26.22,.11,48.74-23.24,50.32-52.15,1.36-25.03-13.44-46.02-34.45-51.27-.83-.21-7.39-1.83-8.35-2.07Z"/>
+        </g>
+      </svg>
+    </g>
+  </g>
+</g>
+<animate xlink:href="#z1-1SVG" attributeName="opacity" attributeType="XML" dur="3s" repeatCount="indefinite" values="1;0.3;0;0.3;1"/>
+<!-- indentation later -->
+</svg>
